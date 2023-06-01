@@ -8,7 +8,7 @@ MIT License
 This project was created by the LeadJavaliner aka LeadJavelineer at Turing Limited (TuringLimited.com) with assistence from AI at the request of the Our World OASIS API project.
 
 # installation 
-clone/branch/fork this repo (ubiquitous-engine.git) then run ```npm install`` from the simple-api-proxy-server folder ( full path: ```ubiquitous-engine/packages/simple-api-proxy-server/``` ).
+clone/branch/fork this repo (ubiquitous-engine.git) then run ```npm install``` from the simple-api-proxy-server folder ( full path: ```ubiquitous-engine/packages/simple-api-proxy-server/``` ).
 
 # usage
 ```npm test``` - runs tests against simple-server.js in jest using nock to provide 'Expected REST API results'.
