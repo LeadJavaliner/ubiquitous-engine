@@ -15,7 +15,8 @@ The follwing commands from the simple-api-proxy-server folder:
 * ```npm test``` - runs tests against simple-server.js in jest using nock to provide 'Expected REST API results'.
 * ```npm run dist``` - runs build, clean, copy-static-files, build:js targets (see package.json file).
 * ```npm run start``` - starts the server on port 5050
-* (there are more targets, see package.json for 
+* see module's package.json for more targets
+* potentially use this module as a template for a more complicated module in this package.
 
 # contribution 
 If you want to contribute to this project by extedning functionality significantly, create a new module from the template 'simple-api-proxy-server' and call it something like 'multi-api-proxy' or 'unified-api-gateway' or 'solid-oasis-api-proxy-server' or whatever you think is appropriate.  This will help keep 'simple-api-proxy-server' true to its name.  Certain changes to the simple-api-proxy-server are okay especially for configuration  (for dev vs prod, etc in a config/ folder).  Another upgrade would be if we have a live SOLID API service to run and OASIS API service to run and in one or more test harnesses along side the existing nock enabled stubbed out unit tests.
