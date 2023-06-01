@@ -10,7 +10,8 @@ This project was created by the LeadJavaliner aka LeadJavelineer at Turing Limit
 # installation 
 Get the ubiquitous-engine.git repo somehow (clone & branch, fork, etc.) then run ```npm install``` from the simple-api-proxy-server folder ( full path: ```ubiquitous-engine/packages/simple-api-proxy-server/``` ).
 
-# simple-api-proxy-server module usage (from the simple-api-proxy-server folder)
+# simple-api-proxy-server module usage 
+The follwing commands from the simple-api-proxy-server folder:
 * ```npm test``` - runs tests against simple-server.js in jest using nock to provide 'Expected REST API results'.
 * ```npm run dist``` - runs build, clean, copy-static-files, build:js targets (see package.json file).
 * ```npm run start``` - starts the server on port 5050
