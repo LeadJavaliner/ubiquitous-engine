@@ -1,5 +1,5 @@
 # ubiquitous-engine
-Purpose: For now, a simple API proxy server, compelte with unit tests that leverage nock to provide stubbed 'expected' API responses.  Hopefully one day a unified RESTful API gateway or API proxy server written in Node.js, designed to facilitate seamless communication between various APIs, including but not limited to OASIS API in C# and SOLID APIs.
+Purpose: For now, a simple API proxy server, compelte with unit tests that leverage nock to provide mock expected API responses.  Hopefully one day a unified RESTful API gateway or API proxy server written in Node.js, designed to facilitate seamless communication between various APIs, including but not limited to OASIS API in C# and SOLID APIs.
 
 # licence
 MIT License
