@@ -15,3 +15,6 @@ Get the ubiquitous-engine.git repo somehow (clone & branch, fork, etc.) then run
 * ```npm run dist``` - runs build, clean, copy-static-files, build:js targets (see package.json file).
 * ```npm run start``` - starts the server on port 5050
 * More targets in the package.json file.
+
+# contribution 
+If you want to contribute to this project by extedning functionality significantly, create a new module from the template 'simple-api-proxy-server' and call it something like 'multi-api-proxy' or 'unified-api-gateway' or 'solid-oasis-api-proxy-server' or whatever you think is appropriate.  This will help keep 'simple-api-proxy-server' true to its name.  However, small changes to the simple-api-proxy-server are okay especially for configuration upgrades  (for dev vs prod, etc) and if we have an actualy SOLID API service and OASIS API service to include in a test harness along side the stubbed out unit tests.
